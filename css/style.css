@@ -1,11 +1,13 @@
-body{
-    background-image: linear-gradient( rgb(27, 36, 132),rgb(36, 40, 91), rgb(2, 2, 35));
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: #fff;
-}
+/*style="color: #23232B"; dark grey
+style="color: #A0AEC0"; light grey 
+style="color: #A25D53";  red
+style="color: #5A5F76"; grey grey */
 
 html, body {
-    overflow-x: hidden;
+    overflow: hidden;
+    background-image: linear-gradient(#A0AEC0, #5A5F76, #23232B);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fff;
 }
 
 h1, .full-width {
@@ -14,8 +16,8 @@ h1, .full-width {
     margin: 0 -9999rem;
     /* add back section padding value */
     padding: 10px;
-    background: #24195a;
-    color: white;
+    background: #23232B;
+    color: #fff;
     font-size: 1.125rem;
 }
 
@@ -23,17 +25,26 @@ h1, .full-width {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
-    background-color: #333;
+    overflow: scroll;
+    background-color: #212328;
 }
 
 li {
     float: left;
 }
-li a{
+
+li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 15px;
-    
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+li a:hover:not(.active) {
+    background-color: #111;
+}
+  
+#onpage {
+    background-color: #04AA6D;
 }
