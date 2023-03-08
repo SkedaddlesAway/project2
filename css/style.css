@@ -1,0 +1,39 @@
+body{
+    background-image: linear-gradient( rgb(27, 36, 132),rgb(36, 40, 91), rgb(2, 2, 35));
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fff;
+}
+
+html, body {
+    overflow-x: hidden;
+}
+
+h1, .full-width {
+    text-align: center;
+    position: relative; /* child absolute */
+    margin: 0 -9999rem;
+    /* add back section padding value */
+    padding: 10px;
+    background: #24195a;
+    color: white;
+    font-size: 1.125rem;
+}
+
+#navv {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    
+}
