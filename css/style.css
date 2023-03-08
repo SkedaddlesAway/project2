@@ -3,10 +3,15 @@ style="color: #A0AEC0"; light grey
 style="color: #A25D53";  red
 style="color: #5A5F76"; grey grey */
 
-html, body {
-    overflow: hidden;
-    background-image: linear-gradient(#A0AEC0, #5A5F76, #23232B);
+html{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    overflow: hidden;
+    background-color: #23232B;
+    background-image: linear-gradient(#A0AEC0, #5A5F76, #23232B);
+    margin-bottom: 10px;
     color: #fff;
 }
 
@@ -21,12 +26,10 @@ h1, .full-width {
     font-size: 1.125rem;
 }
 
-#navv {
+#navv{
     list-style-type: none;
-    margin: 0;
-    padding: 0;
     overflow: scroll;
-    background-color: #212328;
+    background-color: #23232B;
 }
 
 li {
@@ -41,10 +44,10 @@ li a {
     text-decoration: none;
 }
   
-li a:hover:not(.active) {
+li a:hover:not(.onpage) {
     background-color: #111;
 }
   
-#onpage {
-    background-color: #04AA6D;
+.onpage {
+    background-color: #A25D53;
 }
