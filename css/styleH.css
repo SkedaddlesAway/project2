@@ -1,0 +1,43 @@
+/*#DEE4CC cream
+#262626  black
+#D8B44D  yellow
+#74AEBF  blue
+#D4BA85  gold*/
+html{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background-color: #23232B;
+    background-image: linear-gradient( #dee4cc,#d4ba85, #d8b44d);
+    color: #262626;
+}
+
+.nav ul{
+    list-style-type: none;
+    overflow: scroll;
+    background-color: #262626;
+}
+
+.nav li {
+    float: left;
+}
+
+.nav li a {
+    display: block;
+    color: white;
+    font-size: 1em;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+.nav li a:hover:not(.onpage) {
+    background-color: #111;
+}
+  
+.nav .onpage {
+    background-color: #D8B44D;
+}

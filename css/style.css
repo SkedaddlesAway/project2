@@ -1,42 +1,37 @@
-/*style="color: #23232B"; dark grey
-style="color: #A0AEC0"; light grey 
-style="color: #A25D53";  red
-style="color: #5A5F76"; grey grey */
-
 html{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 body{
-    overflow: hidden;
+    overflow-y: scroll;
+    overflow-x: hidden;
     background-color: #23232B;
-    background-image: linear-gradient(#A0AEC0, #5A5F76, #23232B);
-    margin-bottom: 10px;
+    background-image: linear-gradient( #5a5f76, #5a5f76, #23232B);
     color: #fff;
 }
 
 h1, .full-width {
     text-align: center;
-    position: relative; /* child absolute */
-    margin: 0 -9999rem;
-    /* add back section padding value */
-    padding: 10px;
+    /* position: relative; child absolute */
+    margin: 0 -9999rem; /*what makes the heading wrap*/
+    /*add back section padding value */
+    padding:1rem;
     background: #23232B;
     color: #fff;
     font-size: 1.125rem;
 }
 
-#navv{
+.navv ul{
     list-style-type: none;
     overflow: scroll;
     background-color: #23232B;
 }
 
-li {
+.navv li {
     float: left;
 }
 
-li a {
+.navv li a {
     display: block;
     color: white;
     text-align: center;
@@ -44,10 +39,22 @@ li a {
     text-decoration: none;
 }
   
-li a:hover:not(.onpage) {
+.navv li a:hover:not(.onpage) {
     background-color: #111;
 }
   
-.onpage {
+.navv .onpage {
     background-color: #A25D53;
+}
+
+.grid-container {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    background-color: #23232B;
+} 
+
+.cent{ /*it stands for center :>*/
+    text-align: center;
 }
