@@ -14,7 +14,16 @@ body{
     background-image: linear-gradient( #dee4cc,#d4ba85, #d8b44d);
     color: #262626;
 }
-
+h1, .full-width {
+    text-align: center;
+    /* position: relative; child absolute */
+    margin: 0 -9999rem; /*what makes the heading wrap*/
+    /*add back section padding value */
+    padding:1rem;
+    background: #262626;
+    color: #D4BA85;
+    font-size: 1.125rem;
+}
 .nav ul{
     list-style-type: none;
     overflow: scroll;
@@ -39,5 +48,5 @@ body{
 }
   
 .nav .onpage {
-    background-color: #D8B44D;
+    background-color: #D4BA85;
 }
