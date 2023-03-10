@@ -10,8 +10,7 @@ html{
 body{
     overflow-y: scroll;
     overflow-x: hidden;
-    background-color: #23232B;
-    background-image: linear-gradient( #dee4cc,#d4ba85, #d8b44d);
+    background-color: #D4BA85;
     color: #262626;
 }
 h1, .full-width {
@@ -23,6 +22,15 @@ h1, .full-width {
     background: #262626;
     color: #D4BA85;
     font-size: 1.125rem;
+}
+
+h2 {
+    text-align: center;
+    margin: 0 -10rem;
+    padding: 1rem;
+    background: #262626;
+    color: #D4BA85;
+    font-size: 1rem;
 }
 .nav ul{
     list-style-type: none;
@@ -50,3 +58,18 @@ h1, .full-width {
 .nav .onpage {
     background-color: #D4BA85;
 }
+
+#germania{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: auto;
+}
+
+.grid-container {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+} 
