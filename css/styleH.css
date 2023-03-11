@@ -30,7 +30,7 @@ h2 {
     margin: 0em;
     padding: 1em;
     background: #262626;
-    color: #D4BA85;
+    color: #74AEBF;
     font-size: 1.7vw;
     width: 100%;
     height: auto;
@@ -69,6 +69,7 @@ h2 {
     margin-right: auto;
     width: 70%;
     height: auto;
+    padding: 1em;
 }
 
 .grid-container {
@@ -83,8 +84,16 @@ h2 {
     width: 100%;
     height: auto;
 }
-.audioCenter{
-    display:flex;
+.caption{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
     justify-content: center;
     align-items: center;
+    text-align: center;
+}
+
+audio{
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
 }
