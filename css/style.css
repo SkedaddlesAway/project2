@@ -6,7 +6,7 @@ body{
     overflow-y: scroll;
     overflow-x: hidden;
     background-color: #23232B;
-    background-image: linear-gradient( #5a5f76, #5a5f76, #23232B);
+    background-image: linear-gradient( #5a5f76, #23232B, #5a5f76);
     color: #fff;
 }
 
