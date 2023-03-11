@@ -66,21 +66,34 @@ h1, .full-width {
     margin: 1em;
     width: 100%;
     height: auto;
+    box-sizing: border-box;
+    transition: .2s all ease-in-out;
 }
+
+#chin:hover{
+    transform: scale(1.025); 
+}
+
 #onion{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    box-shadow: 15px 15px #CB9A40;
+    box-shadow: 15px 15px #D09085;
     margin: 1em;
-    width: 100%;
+    width: 80%;
     height: auto;
+    box-sizing: border-box;
+    transition: .2s all ease-in-out;
+}
+#onion:hover{
+    transform: scale(1.025);
 }
 
 .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 5em;
+    justify-content: center;
     align-items: center;
 } 
 
