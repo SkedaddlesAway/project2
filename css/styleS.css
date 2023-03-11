@@ -28,7 +28,7 @@ h1, .full-width {
     /*add back section padding value */
     padding:1rem;
     background: #121e15;
-    color: #fff;
+    color: #CB9A40;
     font-size: 1.125rem;
 }
 
@@ -64,7 +64,6 @@ h1, .full-width {
     margin-right: auto;
     box-shadow:15px 15px #CB9A40;
     margin: 1em;
-    align-content: center;
     width: 100%;
     height: auto;
 }
@@ -74,7 +73,7 @@ h1, .full-width {
     margin-right: auto;
     box-shadow: 15px 15px #CB9A40;
     margin: 1em;
-    width: 80%;
+    width: 100%;
     height: auto;
 }
 
@@ -89,10 +88,8 @@ h2{
     text-align: center;
     margin-top: 1em;
     padding: 1em;
-    background: #262626;
-    color: #74AEBF;
-    font-size: 1.7vw;
-    width: 100%;
-    height: auto;
-    
+    background: #121e15;
+    color: #CB9A40;
+    font-size: 1.7rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
