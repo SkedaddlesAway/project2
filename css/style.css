@@ -69,6 +69,14 @@ h1, .full-width {
     background-color: #A25D53;
 }
 
+#sNav ul{
+    background-color: #121e15;
+}
+  
+#sNav .onpage {
+    background-color: #D09085;
+}
+
 #hNav .navv ul{
     background-color: #262626;
 }
@@ -78,13 +86,6 @@ h1, .full-width {
     background-color: #74AEBF;
 }
 
-#sNav ul{
-    background-color: #121e15;
-}
-  
-#sNav .onpage {
-    background-color: #D09085;
-}
 
 #germania{
     display: block;
