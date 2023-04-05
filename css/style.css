@@ -6,6 +6,7 @@ body{
     overflow-y: scroll;
     overflow-x: hidden;
     color: #fff;
+    padding: 10px;
 }
 
 #resBod{
@@ -35,6 +36,18 @@ h1, .full-width {
     background: #23232B;
     color: #fff;
     font-size: 1.125rem;
+}
+
+.histH2 {
+    text-align: center;
+    align-items: center;
+    margin: 1em;
+    padding: 1em, .5em;
+    background: #262626;
+    color: #74AEBF;
+    font-size: 1.7vw;
+    width: 90%;
+    height: auto;
 }
 
 #shrekH1{
@@ -81,11 +94,9 @@ h1, .full-width {
     background-color: #262626;
 }
 
-  
 #hNav .onpage {
     background-color: #74AEBF;
 }
-
 
 #germania{
     display: block;
@@ -95,6 +106,13 @@ h1, .full-width {
     width: 70%;
     height: auto;
     box-shadow: 1em 1em 1em #262626;
+}
+
+#writt{
+    text-align: center;
+    font-size: 1vw;
+    width: 100%;
+    height: auto;
 }
 
 #chin{
@@ -152,8 +170,6 @@ h1, .full-width {
 .cent{ /*it stands for center :>*/
     text-align: center;
 }
-
-
 
 #shrekH2{
     text-align: center;
