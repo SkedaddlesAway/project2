@@ -36,17 +36,18 @@ h2 {
     width: 100%;
     height: auto;
 }
-.nav ul{
+
+.navH ul{
     list-style-type: none;
     overflow: scroll;
     background-color: #262626;
 }
 
-.nav li {
+.navH li {
     float: left;
 }
 
-.nav li a {
+.navH li a {
     display: block;
     color: white;
     font-size: 1em;
@@ -56,11 +57,11 @@ h2 {
     font-size: 1.025vw;
 }
   
-.nav li a:hover:not(.onpage) {
+.navH li a:hover:not(.onpage) {
     background-color: #111;
 }
   
-.nav .onpage {
+.navH .onpage {
     background-color: #74AEBF;
 }
 
